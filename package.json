@@ -14,7 +14,9 @@
     "postinstall": "npm rebuild node-sass",
     "start": "node app.js",
     "test": "nyc mocha --timeout=10000 --exit",
-    "lint": "eslint \"**/*.js\""
+    "lint": "eslint \"**/*.js\"",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.7.2",
@@ -39,7 +41,7 @@
     "express-validator": "^5.3.1",
     "fbgraph": "^1.4.4",
     "instagram-node": "^0.5.8",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "lastfm": "^0.9.3",
     "lob": "^6.0.5",
     "lodash": "^4.17.11",
@@ -70,7 +72,8 @@
     "tumblr.js": "^2.0.0",
     "twilio": "^3.28.1",
     "twit": "^2.2.11",
-    "validator": "^10.11.0"
+    "validator": "^10.11.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "chai": "^4.2.0",
@@ -91,5 +94,6 @@
   "homepage": "https://github.com/jrday-fc/debarrass#readme",
   "bugs": {
     "url": "https://github.com/jrday-fc/debarrass/issues"
-  }
+  },
+  "snyk": true
 }

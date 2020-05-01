@@ -1,0 +1,40 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T01:33:25.230Z'
+    - cheerio > lodash:
+        patched: '2020-05-01T01:33:25.230Z'
+    - express-validator > lodash:
+        patched: '2020-05-01T01:33:25.230Z'
+    - node-linkedin > lodash:
+        patched: '2020-05-01T01:33:25.230Z'
+    - tumblr.js > lodash:
+        patched: '2020-05-01T01:33:25.230Z'
+    - twilio > lodash:
+        patched: '2020-05-01T01:33:25.230Z'
+    - mongoose > async > lodash:
+        patched: '2020-05-01T01:33:25.230Z'
+    - node-sass > sass-graph > lodash:
+        patched: '2020-05-01T01:33:25.230Z'
+    - express-handlebars > handlebars > async > lodash:
+        patched: '2020-05-01T01:33:25.230Z'
+    - express-status-monitor > handlebars > async > lodash:
+        patched: '2020-05-01T01:33:25.230Z'
+    - express-status-monitor > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-01T01:33:25.230Z'
+    - node-sass > gaze > globule > lodash:
+        patched: '2020-05-01T01:33:25.230Z'
+    - node-sass-middleware > node-sass > sass-graph > lodash:
+        patched: '2020-05-01T01:33:25.230Z'
+    - node-sass-middleware > node-sass > gaze > globule > lodash:
+        patched: '2020-05-01T01:33:25.230Z'
+    - pug > pug-code-gen > constantinople > babel-types > lodash:
+        patched: '2020-05-01T01:33:25.230Z'
+    - pug > pug-filters > constantinople > babel-types > lodash:
+        patched: '2020-05-01T01:33:25.230Z'
+    - pug > pug-code-gen > pug-attrs > constantinople > babel-types > lodash:
+        patched: '2020-05-01T01:33:25.230Z'

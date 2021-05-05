@@ -35,7 +35,7 @@
     "express-flash": "^0.0.2",
     "express-handlebars": "^3.0.2",
     "express-session": "^1.15.6",
-    "express-status-monitor": "^1.2.3",
+    "express-status-monitor": "^1.2.11",
     "express-validator": "^5.3.1",
     "fbgraph": "^1.4.4",
     "instagram-node": "^0.5.8",
